@@ -6,6 +6,10 @@ Generate a Maven project from https://start.spring.io/
 mvn clean package && java -jar target\spring-boot-web-app-2.0.jar
 ```
 
+Note:
+
+* In order to use v2.0+, you need to customise application.properties properly. 
+
 # Release
 
 * v2.0: Add PostgreSQL as the persistent layer
